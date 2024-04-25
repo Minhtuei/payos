@@ -17,7 +17,7 @@ export function ShowingBook({ onButtonClick }: HomePageProps) {
     };
     return (
         <div
-            className="flex items-center justify-center w-full h-full gap-2"
+            className="flex flex-col items-center justify-center w-full h-full gap-2 p-3 sm:flex-row"
             style={{
                 backgroundImage: `linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(${BackGroundImage})`,
                 backgroundPosition: "center",
@@ -25,7 +25,7 @@ export function ShowingBook({ onButtonClick }: HomePageProps) {
                 backgroundRepeat: "no-repeat",
             }}
         >
-            <div className="w-[500px] shrink-0">
+            <div className="w-[300px] md:w-[500px] shrink-0">
                 <img
                     src={book.thumbnail}
                     className="object-cover w-full h-full"

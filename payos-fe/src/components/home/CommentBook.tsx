@@ -23,8 +23,8 @@ export function CommentBook() {
             }}
         >
             <div className="flex items-center justify-center gap-2 text-white rounded-md bg-opacity-40 bg-slate-600 ">
-                <div className="flex flex-col items-center gap-2 p-4 w-[800px]">
-                    <p className="text-[30px] text-center">
+                <div className="flex flex-col items-center gap-2 p-4 w-[300px] md:w-[600px] lg:w-[800px]">
+                    <p className="text-[20px] md:text-[25px] lg:text-[30px] text-center font-semibold">
                         {'"' + book.comment[currentComment].content + '"'}
                     </p>
                     <img

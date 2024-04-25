@@ -13,8 +13,8 @@ export function ContentBook() {
                 backgroundRepeat: "no-repeat",
             }}
         >
-            <div className="flex items-center justify-center gap-2 text-white">
-                <div className="w-[500px]">
+            <div className="flex flex-col items-center justify-center min-h-screen gap-2 text-white sm:flex-row">
+                <div className="w-[300px] md:w-[500px]">
                     <div className="text-[20px] italic">
                         <Typewriter
                             options={{
@@ -32,7 +32,7 @@ export function ContentBook() {
                         {book.author?.join(", ")}
                     </p>
                 </div>
-                <div className="w-[500px] shrink-0">
+                <div className="w-[300px] md:w-[500px] shrink-0">
                     <img
                         src={book.thumbnail}
                         className="object-cover w-full h-full"

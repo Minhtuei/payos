@@ -1,5 +1,6 @@
 {
     "book": {
+        "id": "1",
         "title": "Bí mật của may mắn",
         "author": [
             "Alex Rovira",
@@ -17,22 +18,25 @@
         "thumbnail": "/book.png",
         "comment": [
             {
-                "name": "Ẩn danh",
+                "id": "1",
+                "username": "Ẩn danh",
                 "content": "Phải nói là Good Luck là cuốn sách độc đáo, sẽ còn được nhắc đến và lan truyền đi khắp thế giới. Cuốn sách không chỉ giúp ích cho cuộc sống con người mà rất nhiều công ty trên thế giới đã ứng dụng những ý tưởng của Good Luck để đạt được thành công trong cuộc sống.",
                 "avatar": "https://images.unsplash.com/flagged/photo-1570612861542-284f4c12e75f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80",
-                "star": 5
+                "rating": 5
             },
             {
-                "name": "Huyền Trang",
+                "id": "2",
+                "username": "Huyền Trang",
                 "content": "Một cuốn sách rất hay. Mượn một câu chuyện truyền thuyết để chứng minh rằng, may mắn không ai khác chính là do chúng ta tạo ra. Và khi tự mình tạo ra những may mắn như vậy sẽ thấy cuộc đời thực sự đáng sống và đầy những phép màu.",
                 "avatar": "https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1061&q=80",
-                "star": 3
+                "rating": 3
             },
             {
-                "name": "Ẩn danh",
+                "id": "3",
+                "username": "Ẩn danh",
                 "content": "Bí quyết thành công và may mắn của Max nằm ở câu chuyện kỳ diệu mà Jim đã kể lại cho Max từ nhiều năm trước. Câu chuyện ấy đã truyền cảm hứng cho rất nhiều người, thành công hay may mắn không phải chỉ từ trên trời rơi xuống mà đó còn là sự nỗ lực từ chính chúng ta. Đây là món quà đặc biệt của Tác giả đem đến cho bạn đọc.",
                 "avatar": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1480&q=80",
-                "star": 4
+                "rating": 4
             }
         ],
         "link": "https://drive.google.com/file/d/1DaoW9CH7ri29mHZ5Qtxl6uMo-wH3X4ol/view"
