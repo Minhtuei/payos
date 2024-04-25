@@ -12,7 +12,7 @@ const createPayment = async (req: Request, res: Response) => {
         const order = {
             amount: bookData.price,
             description: bookData.title,
-            orderCode: Math.floor(Math.random() * 100) + 1,
+            orderCode: Math.floor(Math.random() * 10000) + 1,
             returnUrl: bookData.link,
             cancelUrl: cancelURL,
         }
